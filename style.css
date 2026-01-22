@@ -1,19 +1,17 @@
-/* Change the background of the entire visible page */
 body {
-    background-color: #f0f0f0; /* Very light grey */
+  background-color: #f0f0f0; /* Sets page background to very light grey */
 }
 
-/* Style for all paragraphs */
 p {
-    color: darkblue;
-    font-size: 16px;
-    font-family: 'Times New Roman', serif;
+  color: darkblue; /* Paragraph text color */
+  font-size: 16px; /* Paragraph font size */
+  font-family: 'Times New Roman', serif; /* Paragraph font family */
 }
 
-/* Style for the main heading */
 h1 {
-    text-align: center; /* Puts the heading in the middle */
-    border: 2px solid Green; /* Adds an orange border around the heading */
-    padding: 10px; /* Adds space inside the border
+  text-align: center; /* Centers the heading */
+  border: 2px solid green; /* Adds a green border */
+  padding: 10px; /* Adds space inside the border */
+  background-color: orange; /* Sets heading background to orange */
+}
 
-  
