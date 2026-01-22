@@ -13,6 +13,13 @@ h1 {
   border: 2px solid green; /* Adds a green border */
   padding: 10px; /* Adds space inside the border */
   background-color: orange; /* Sets heading background to orange */
-}
-color: rgb(0, 150, 255);
+
+
+<head>
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+</head>
 
