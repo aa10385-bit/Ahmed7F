@@ -1,46 +1,52 @@
 body {
-    background-color: #000814; /* Much darker Navy/Black-Blue */
+    background-color: #00040a; /* Extreme Dark Blue */
     color: #39FF14;           /* Basic Green Text */
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    margin: 0;
 }
 
 h1 {
-    font-size: 35px;
-    border: 3px solid #39FF14; /* Basic straight border */
-    display: inline-block;
-    padding: 15px;
-}
-
-/* Video Box - Separate from List */
-.video-box {
-    margin: 40px auto;
+    font-size: 30px;
     border: 2px solid #39FF14;
-    width: 560px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
-/* Ingredients Box - Basic and Separate */
+/* Small Cookie Image Style */
+.cookie-pic {
+    width: 250px; /* Small size */
+    border: 2px solid #39FF14;
+    margin: 20px 0;
+}
+
 .ingredients-box {
     border: 2px solid #39FF14;
-    padding: 20px;
-    width: 500px;
-    margin: 40px auto;
+    padding: 15px;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
     text-align: left;
 }
 
-h2 {
-    text-decoration: underline;
-}
-
-ul {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
 .secret-text {
-    margin-top: 50px;
-    font-size: 22px;
-    font-weight: bold;
-    color: #ffffff; /* White text for the tip */
+    color: white;
+    font-size: 18px;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+/* Video position: Bottom Right Corner */
+.corner-video {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid #39FF14;
+    background: black;
+    line-height: 0;
+}
+
+iframe {
+    display: block;
 }
