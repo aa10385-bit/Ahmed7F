@@ -1,66 +1,44 @@
-/* REFRESHING BLUE & GREEN THEME */
-
 body {
-    background-color: #e0f2fe; /* Light Sky Blue */
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #1e293b; /* Dark Slate for text */
-    margin: 0;
-    padding: 40px 20px;
-}
-
-.page-wrapper {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.recipe-header {
+    background-color: #001f3f; /* Very Dark Blue */
+    color: #39FF14;           /* Bright Green Text */
+    font-family: Arial, sans-serif;
     text-align: center;
-    margin-bottom: 40px;
+    padding: 20px;
 }
 
 h1 {
-    color: #0369a1; /* Deep Ocean Blue */
     font-size: 40px;
-}
-
-h2 {
-    color: #059669; /* Mint Green */
-    border-bottom: 3px solid #059669;
-    padding-bottom: 5px;
-}
-
-.video-card {
-    background: white;
+    border: 2px solid #39FF14; /* Basic Border */
+    display: inline-block;
     padding: 10px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    margin-bottom: 30px;
-    overflow: hidden;
 }
 
-/* Makes the video fit nicely */
-iframe {
-    width: 100%;
-    border-radius: 15px;
-    border: none;
+/* Separate box for the video */
+.video-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
-.card {
-    background: white;
-    padding: 30px;
-    border-radius: 25px;
-    border-top: 10px solid #10b981; /* Bright Green accent */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+/* Separate box for the ingredients */
+.ingredients-section {
+    border: 2px solid #39FF14; /* Basic Border */
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 ul {
-    line-height: 1.8;
+    text-align: left;
     font-size: 18px;
 }
 
-.main-img {
-    width: 100%;
-    border-radius: 25px;
-    margin-top: 30px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+li {
+    margin-bottom: 10px;
+}
+
+.secret-tip {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white; /* Made this white so it stands out */
 }
