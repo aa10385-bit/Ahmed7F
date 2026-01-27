@@ -1,44 +1,46 @@
 body {
-    background-color: #001f3f; /* Very Dark Blue */
-    color: #39FF14;           /* Bright Green Text */
+    background-color: #000814; /* Much darker Navy/Black-Blue */
+    color: #39FF14;           /* Basic Green Text */
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 h1 {
-    font-size: 40px;
-    border: 2px solid #39FF14; /* Basic Border */
+    font-size: 35px;
+    border: 3px solid #39FF14; /* Basic straight border */
     display: inline-block;
-    padding: 10px;
+    padding: 15px;
 }
 
-/* Separate box for the video */
-.video-section {
-    margin-top: 30px;
-    margin-bottom: 50px;
+/* Video Box - Separate from List */
+.video-box {
+    margin: 40px auto;
+    border: 2px solid #39FF14;
+    width: 560px;
 }
 
-/* Separate box for the ingredients */
-.ingredients-section {
-    border: 2px solid #39FF14; /* Basic Border */
+/* Ingredients Box - Basic and Separate */
+.ingredients-box {
+    border: 2px solid #39FF14;
     padding: 20px;
-    width: fit-content;
-    margin: 0 auto;
+    width: 500px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 ul {
-    text-align: left;
     font-size: 18px;
+    line-height: 1.6;
 }
 
-li {
-    margin-bottom: 10px;
-}
-
-.secret-tip {
-    margin-top: 40px;
+.secret-text {
+    margin-top: 50px;
+    font-size: 22px;
     font-weight: bold;
-    font-size: 20px;
-    color: white; /* Made this white so it stands out */
+    color: #ffffff; /* White text for the tip */
 }
