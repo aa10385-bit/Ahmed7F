@@ -1,25 +1,50 @@
+/* Overall Page Look */
 body {
-  background-color: #f0f0f0; /* Sets page background to very light grey */
+    background-color: #fdf5e6; /* Warm cookie-dough color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4b2c20; /* Dark chocolate brown text */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-p {
-  color: darkblue; /* Paragraph text color */
-  font-size: 16px; /* Paragraph font size */
-  font-family: 'Times New Roman', serif; /* Paragraph font family */
-}
-
+/* Main Heading */
 h1 {
-  text-align: center; /* Centers the heading */
-  border: 2px solid green; /* Adds a green border */
-  padding: 10px; /* Adds space inside the border */
-  background-color: orange; /* Sets heading background to orange */
+    text-align: center;
+    color: #d2691e; /* Cinnamon orange */
+    border-bottom: 4px dashed #d2691e;
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
 
+/* Container for your content to keep it neat */
+.container {
+    max-width: 800px;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
 
-<head>
-    <style>
-        p {
-            color: blue;
-        }
-    </style>
-</head>
+/* Styling the Images and Video */
+img, iframe {
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px 0;
+    display: block;
+}
 
+/* List Styling */
+ul {
+    background: #fff3e0;
+    padding: 25px 50px;
+    border-radius: 15px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
